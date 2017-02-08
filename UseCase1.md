@@ -4,7 +4,7 @@ Primary Actor: Developer
 
 Goal in Context: The developer is able to determine license and vulnerability information from provided project information
 
-Stakeholders: 
+Stakeholders:   
 
 Preconditions:
 
