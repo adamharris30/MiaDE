@@ -11,6 +11,7 @@ Me: Make sure that license and vulnerabilities are being written to the database
 Preconditions:
 Relevant file/package information is in the NIST vulnerability database
 Proper project information has been provided
+Proper connections are established between databases utilized by the system
 
 Main Success Scenario:
 Developer receives accurate license and vulnerability information for the requested project(s)
