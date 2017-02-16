@@ -6,7 +6,7 @@ Goal in Context: The developer is able to determine license and vulnerability in
 
 Stakeholders:
 Developer: To provide the correct project information, and receive the correct results
-Me: Make sure that correct results are provided to the developer
+System Designer: Make sure that correct results are provided to the developer
 
 Preconditions:
 Relevant file/package information is in the License and Vulnerabilities Database
