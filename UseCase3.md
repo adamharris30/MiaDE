@@ -1,15 +1,19 @@
-Title: Developer - Determine and Upload License and Vulnerability Information to Database
+Title: Manager - Apply New Policies to OSS Package
 
-Primary Actor: Developer
+Primary Actor: Manager
 
-Goal in Context: The developer is able to determine license and vulnerability information from provided project information and this information is also written to the License and Vulnerability Database
+Goal in Context: The manager is able to add new policies to a project package and these policies are written to the Policy Database
 
-Stakeholders: Developer: To provide the correct project information, and receive the correct results Me: Make sure that license and vulnerabilities are being written to the database
+Stakeholders: 
+Manager: To provide the correct policy information for the correct project package
+Me: Make sure that policies are being written to the database
 
-Preconditions: Relevant file/package information is in the NIST vulnerability database Proper project information has been provided Proper connections are established between databases utilized by the system
+Preconditions: 
+Policy Database is accessible
+Manager provides the correct package information with the policy info
 
-Main Success Scenario: Developer receives accurate license and vulnerability information for the requested project(s) License and vulnerability information is written to the License and Vulnerability Database
+Main Success Scenario: Manager applies new policies to the correct package and the policies are written to the Policies Database
 
-Failed End Conditions: Developer receives inaccurate or invalid license and vulnerability information for the requested project(s) License and vulnerability information is unable to write to License and Vulnerability Database
+Failed End Conditions: Manager applies the new policies to the wrong package or the policies are not written to the Policies Database
 
-Trigger: Developer uploads or identifies project information to which license and vulnerability information is provided
+Trigger: Mangaer uploads policies for a specific project, then policies are written to the Policy Database for that project
