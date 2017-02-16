@@ -6,7 +6,7 @@ Goal in Context: The developer is able to determine license and vulnerability in
 
 Stakeholders:
 Developer: To provide the correct project information, and receive the correct results
-Me: Make sure that license and vulnerabilities are being written to the database 
+Scan Tool Designer: Make sure that license and vulnerabilities are being written to the database 
 
 Preconditions:
 Relevant file/package information is in the NIST vulnerability database
