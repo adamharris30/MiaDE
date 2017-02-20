@@ -6,11 +6,11 @@ External Entities:
 
 Data Stores:
 
-    NIST Vulnerability DB: 
+    NIST Vulnerability DB: The database that NIST manages, it contains vulnerabilities on OSS that has been published 
 
-    License and Vulnerabilities DB:
+    License and Vulnerabilities DB: This database contains the license and vulnerability information obtained from NIST and the License Scanner process
 
-    Policy DB:
+    Policy DB: This database contains the policies that the manager(s) has applied to some software packages
 
 Processes:
 Check for OSS Components: 
