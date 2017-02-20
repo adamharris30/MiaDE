@@ -28,24 +28,24 @@ Processes:
 
 Data Flows:
 
-    Software Package:
+    Software Package: This contains all information about a software package, from source code, to the name of the package
 
-    OSS Vulnerability Results:
+    OSS Vulnerability Results: Contains the results provided from the NIST Vulnerability DB
 
-    OSS License Results:
+    OSS License Results: Contains the results provided from the License Scanner process
 
-    Software Package Name:
+    Software Package Name: The name of the provided package (this is all that is required to search the NIST Vulnerability DB
 
-    L/V Info Request:
+    L/V Info Request: Contains the software package information needed to find the license and vulnerability info within the License and Vulnerabilities DB
 
-    OSS License/Vulnerability Results:
+    OSS License/Vulnerability Results: This contains both the OSS Vulnerability Results data flow and the OSS License Results data flow listed above
 
-    New Policy:
+    New Policy: This is the new policy information provided by the manager
 
-    Policy Request Results:
+    Policy Request Results: The policy information that the manager is trying to find
 
-    Policy Update Info:
+    Policy Update Info: This contains the information needed to update an existing policy. This includes policy name and the updates the manager made
 
-    Policy Search Info:
+    Policy Search Info: This contains just the information needed to search for a policy. Specifically, policy name.
 
-    Policy Request:
+    Policy Request: This contains the name of the policy being searched for
