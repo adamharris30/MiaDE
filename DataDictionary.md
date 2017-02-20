@@ -27,14 +27,25 @@ Processes:
     Find Policies:
 
 Data Flows:
-Software Package:
-OSS Vulnerability Results:
-OSS License Results:
-Software Package Name:
-L/V Info Request:
-OSS License/Vulnerability Results:
-New Policy:
-Policy Request Results:
-Policy Update Info:
-Policy Search Info:
-Policy Request:
+
+    Software Package:
+
+    OSS Vulnerability Results:
+
+    OSS License Results:
+
+    Software Package Name:
+
+    L/V Info Request:
+
+    OSS License/Vulnerability Results:
+
+    New Policy:
+
+    Policy Request Results:
+
+    Policy Update Info:
+
+    Policy Search Info:
+
+    Policy Request:
