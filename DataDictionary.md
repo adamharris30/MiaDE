@@ -1,10 +1,10 @@
-External Entities:
+## External Entities:
 
 Developer: The person developing and utilizing OSS in a program and checking for licenses and vulnerabilities within that source code
 
 Manager: The manager of the developer who checks for license and vulnerabilities and applies policies for software
 
-Data Stores:
+## Data Stores:
 
 NIST Vulnerability DB: The database that NIST manages, it contains vulnerabilities on OSS that has been published 
 
@@ -12,7 +12,7 @@ License and Vulnerabilities DB: This database contains the license and vulnerabi
 
 Policy DB: This database contains the policies that the manager(s) has applied to some software packages
 
-Processes:
+## Processes:
 
 Check for OSS Components: This process checks for OSS components within the package provided by the developer. It then sends out this information to the License Scanner and the NIST database. Last, it writes the information found to the License and Vulnerabilities DB
     
@@ -26,7 +26,7 @@ Set/Edit/Find Policies: This process does a handful of things. 1) A manager can 
 
 Find Policies: This process takes the information provided from the Set/Edit/Find Policies process and searches within the Policy DB to see if that policy exits, and then returns the results.
 
-Data Flows:
+## Data Flows:
 
 Software Package: This contains all information about a software package, from source code, to the name of the package
 
