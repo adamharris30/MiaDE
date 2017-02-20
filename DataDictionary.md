@@ -18,13 +18,13 @@ Processes:
     
     License Scanner: This process takes the information provided from the Check for OSS Components and checks to see if there are any licenses associated with it.
 
-    Obtain License and Vulnerability Info: 
+    Obtain License and Vulnerability Info: This process checks to see if there is any existing license and vulerability info within the License and Vulnerabilities DB. If there is it will provide the results back to the requesting party.
 
-    Apply New Policies: 
+    Apply New Policies: This process is used by managers to put new policies into the Policy DB
 
-    Set/Edit/Find Policies:
+    Set/Edit/Find Policies: This process does a handful of things. 1) A manager can find existing policies in the Policy DB. It sends information to the Find Policies process and then sends the results back to the manager. 2) If a manager wants to edit an existing policy, he/she will submit what policy he/she is looking for. This process then sends the information to the Find Policies process which finds the correct policy. Then, this process will update the policy based on what the manager provided, and then write it to the Policy DB
 
-    Find Policies:
+    Find Policies: This process takes the information provided from the Set/Edit/Find Policies process and searches within the Policy DB to see if that policy exits, and then returns the results.
 
 Data Flows:
 
