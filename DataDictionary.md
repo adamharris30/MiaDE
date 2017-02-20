@@ -1,5 +1,4 @@
 External Entities:
-
 Developer: The person developing and utilizing OSS in a program and checking for licenses and vulnerabilities within that source code
 Manager: The manager of the developer who checks for license and vulnerabilities and applies policies for software
 
