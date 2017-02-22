@@ -1,6 +1,7 @@
-Title: Developer - Determine and Upload License and Vulnerability Information to Database
+# Title: Developer - Determine and Upload License and Vulnerability Information to Database
 
-Primary Actor: Developer
+### Primary Actor:
+Developer
 
 Goal in Context: The developer is able to determine license and vulnerability information from provided project information and this information is also written to the License and Vulnerability Database
 
