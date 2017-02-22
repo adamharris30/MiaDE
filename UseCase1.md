@@ -23,3 +23,4 @@ Developer receives inaccurate or invalid license and vulnerability information f
 License and vulnerability information is unable to write to License and Vulnerability Database
 
 Trigger:  Developer uploads or identifies project information to which license and vulnerability information is provided
+
